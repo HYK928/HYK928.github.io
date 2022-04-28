@@ -11289,8 +11289,6 @@ textarea.form-control-lg {
   }
 }
 html {
-  font-family :-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica
-Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 12px;
 
   @media (min-width: 768px) {
@@ -11302,10 +11300,10 @@ body {
   height: 100%;
 }
 html, body{
-  -webkit-text-size-adjust : 100%;  /* 크롬, 사파리, 오페라 신버전 */
-  -ms-text-size-adjust : none;  /* IE */
-  -moz-text-size-adjust : none;  /* 파이어폭스 */
-  -o-text-size-adjust : none;  /* 오페라 구버전 */
+  -webkit-text-size-adjust : 70%;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : 70%;  /* IE */
+  -moz-text-size-adjust : 70%;  /* 파이어폭스 */
+  -o-text-size-adjust : 70%;  /* 오페라 구버전 */
 }
 
 .page-section {
